@@ -7,7 +7,7 @@ import java.util.List;
 public class ComparableExample {
 
     public static void main(String[] args) {
-        List<Book> books = Arrays.asList(new Book(3,"Makbeth","Shakespeare")
+        List<Book> books = Arrays.asList(new Book(3,"Macbeth","Shakespeare")
                 ,new Book(2,"Gitanjali","R.N.Tagore"));
         Collections.sort(books);
         System.out.println(books.toString());
